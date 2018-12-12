@@ -1,0 +1,6 @@
+@custom-media --desktop-viewport-small (max-width: 1024px);
+@custom-media --desktop-viewport (min-width: 769px);
+@custom-media --tablet-screen (min-width: 480px);
+@custom-media --mobile-viewport (max-width: 768px);
+@custom-media --xxsmall-screen (max-width: 420px);
+@custom-media --xxxsmall-screen (max-width: 374px);

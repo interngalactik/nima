@@ -1,0 +1,40 @@
+import { h, Component } from 'preact';
+import { Router } from 'preact-router';
+
+import Header from './header';
+
+// Code-splitting is automated for routes
+import Home from '../routes/home';
+import About from '../routes/about';
+import Residents from '../routes/residents';
+import Campaigns from '../routes/campaigns';
+import Involvment from '../routes/getInvolved';
+
+export default class App extends Component {
+	
+	/** Gets fired when the route changes.
+	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
+	 *	@param {string} event.url	The newly routed URL
+	 */
+	handleRoute = e => {
+		this.currentUrl = e.url;
+	};
+
+	render() {
+		return (
+			<div id="app">
+				<Header />
+				<Router onChange={this.handleRoute}>
+					<Home path="/" />
+          <About path="/about" />
+          <Residents path="/residents/" />
+          <Residents path="/residents/:user" />
+          <Campaigns path="/campaigns" />
+          <Involvment path="/get-involved" />
+					{/* <Profile path="/profile/" user="me" />
+					<Profile path="/profile/:user" /> */}
+				</Router>
+			</div>
+		);
+	}
+}
