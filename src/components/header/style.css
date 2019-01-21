@@ -129,4 +129,14 @@
     max-width: 28px;
     margin: 5px 7px;
   }
+
+  .more__to__come {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    min-height: 300px;
+    text-align: center;
+  }
 }
