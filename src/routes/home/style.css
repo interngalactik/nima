@@ -84,7 +84,8 @@
 
 @media (max-width: 767px) {
   .main__container {
-    padding: 56px 0px;
+    padding: 56px 0 0;
+    position: fixed;
   }
   .home__header #header__overlay {
     top: 56px;
