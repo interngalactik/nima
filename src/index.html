@@ -5,7 +5,10 @@
 		<title><%= htmlWebpackPlugin.options.title %></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta property="og:url" content="http://sanctuarnima.ro" />
+    <meta property="og:title" content="Nima Sanctuary" />
+    <meta property="og:description" content="A safe heaven for farm animals. The first of its kind in Romania." />
 		<meta property="og:image" content="assets/images/nima_thumbnail.jpg" />
 		<link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json">
 		<% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
