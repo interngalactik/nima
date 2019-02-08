@@ -2,14 +2,15 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	width: 160px;
+	width: 200px;
 	height: 100%;
 	padding: 0;
-	background: #154721;
+	background: var(--color-primary);;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   z-index: 50;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .header span img {
@@ -23,7 +24,7 @@
 }
 
 .header img {
-  width: 120px;
+  width: 170px;
   margin: 20px 0;
 }
 
@@ -68,15 +69,19 @@
 .header footer h1 {
   display: flex;
   justify-content: center;
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 400;
+  font-family: 'Montserrat', arial, sans-serif;
+  letter-spacing: 0;
 }
 
 .header footer .contact {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 10px 0;
 }
 
 .header footer .contact img {
@@ -90,7 +95,7 @@
   .mobile__header {
     height: 56px;
     width: 100%;
-    background-color: #154721;
+    background: var(--color-primary);
     display: flex;
     justify-content: space-between;
     align-items: center;

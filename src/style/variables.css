@@ -1,5 +1,6 @@
 :root {
-  --color-primary: #154721;
+  --color-primary: #c9d251;
+  --color-secondary: #494949;
 }
 
 @custom-media --desktop-viewport-small (max-width: 1024px);
