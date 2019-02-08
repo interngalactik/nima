@@ -62,7 +62,7 @@ export default class Header extends Component {
   			<div>
   				<div class={style.mobile__header}>
   					<Link className={style.logo} href="/">
-  						<img src="assets/icons/android-chrome-192x192.png" />
+  						<img src="assets/images/nima_logo_mobile.png" />
   					</Link>
   					<span class={style.toggle} onClick={this.toggleSidebar}>
   						<img src="assets/icons/menu.png" />
