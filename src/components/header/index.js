@@ -24,25 +24,31 @@ export default class Header extends Component {
 				{ forDesktop && <h1>Find us on:</h1> }
 				<div class={style.contact}>
 					<a href="mailto:contact@sanctuarnima.ro">
-						<img src="assets/icons/mail.png" />
+						<img src="assets/icons/mail.svg" />
 					</a>
 					<a href="tel:+40764166966">
-						<img src="assets/icons/phone.png" />
+						<img src="assets/icons/phone.svg" />
 					</a>
 					<a href="https://goo.gl/maps/17qtt1LKnMs" target="__blank">
-						<img src="assets/icons/location.png" />
+						<img src="assets/icons/location.svg" />
 					</a>
 					<a href="https://www.facebook.com/NimaSanctuary/">
-						<img src="assets/icons/facebook.png" target="__blank" />
+						<img src="assets/icons/facebook.svg" target="__blank" />
 					</a>
 					<a href="https://www.instagram.com/nimasanctuary/" target="__blank">
-						<img src="assets/icons/instagram.png" />
+						<img src="assets/icons/instagram.svg" />
 					</a>
 					<a href="https://www.youtube.com/channel/UCvPstz0mFSA5HubBD0sHmJw" target="__blank">
-						<img src="assets/icons/youtube.png" />
+						<img src="assets/icons/youtube.svg" />
 					</a>
+				</div>
+				{ forDesktop && <h1>Support us with:</h1> }
+				<div class={style.contact}>
 					<a href="https://www.paypal.me/nimasanctuary" target="__blank">
-						<img src="assets/icons/paypal.png" />
+						<img src="assets/icons/paypal.svg" />
+					</a>
+					<a href="https://www.patreon.com/nimasanctuary" target="__blank">
+						<img src="assets/icons/patreon.svg" />
 					</a>
 				</div>
 			</div>
